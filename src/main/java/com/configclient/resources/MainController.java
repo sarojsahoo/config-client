@@ -18,7 +18,7 @@ public class MainController {
     private String grettingValue;
 
     @GetMapping("/get-details")
-    public String getDetails () {
+    public String getDetailss () {
 
         return grettingValue;
     }
